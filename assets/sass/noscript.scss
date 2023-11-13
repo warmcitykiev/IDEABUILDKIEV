@@ -48,3 +48,13 @@
 			margin: (_size(element-margin) * 2) 0 0 0;
 		}
 	}
+/* Mainn */
+
+#mainn {
+	body.is-preload & {
+		.thumb {
+			@include vendor('pointer-events', 'auto');
+			opacity: 1;
+		}
+	}
+}
